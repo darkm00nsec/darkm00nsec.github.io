@@ -11,3 +11,5 @@ We provide consulting services in Cyber Threat Intelligence (CTI) and Risk Manag
 
 Additionally, we can provide support for Assess and Authorize (A&A) packages in RMF. We have experience in reviewing artifacts for RMF controls, including System Security Plans (SSPs), Standard Operating Procedures (SOPs), policies, diagrams, and general auditing practices.
 
+assets: about_photo.png
+  
