@@ -38,11 +38,11 @@ social:
   email: hunter@darkmoonsec.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    # https://twitter.com/username # change to your Twitter homepage
+    - https://x.com/Darkm00nsec # change to your Twitter homepage
     - https://github.com/darkm00nsec # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/hunter-harrison-2a055366/
 
 # Site Verification Settings
 webmaster_verifications:
