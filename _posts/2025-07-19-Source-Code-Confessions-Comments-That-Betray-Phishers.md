@@ -1,12 +1,12 @@
 Phishing…we all know what it is, but it remains one of the most effective [initial access vectors](https://kwm.me/posts/top-initial-access-vectors-2022/) that threat actors exploit. Unfortunately, the tricks become increasingly sophisticated that even [experienced professionals](https://cybernews.com/security/troy-hunt-falls-victim-to-phishing-attack/) can fall for them. I had previously covered a phishing campaign impersonating [EZPass](https://darkmoonsec.com/posts/Detecting-and-Decoding-EZPass-Phishing-Activity-in-the-Wild-Part-2/). I uncovered a variety of phishing pages and campaigns. However, an interesting artifact remained on these pages. There were comments in Chinese. I’m open to the possibility that they could be a false flag, but sometimes threat actors leave comments in their code. I even found comments in a Lumma Stealer payload that was encoded in [Base64](https://darkmoonsec.com/posts/How-Lumma-Infiltrates-Github-with-Roblox-Hacks/).
 
-![[Pasted image 20250719102039.png]]
+![](https://miro.medium.com/v2/resize:fit:700/1*71mBVcw5NGWmaABQbRtbDg.png)
 
 Threat actors and penetration testers may use [templates](https://github.com/criggs626/PhishingTemplates) to streamline phishing deployments. But to maintain their stealth, they have to put their own flair behind it, as those templates have signatures that web browsers can detect.
 
 Sure, a threat actor can throw their template into AI. There is even a business [model](https://www.linkedin.com/pulse/emerging-threat-shebyte-ai-powered-phaas-tammy-harper-5jndc) for phishing incorporating AI. However, there are threat actors that still like to create their own templates and view them as a piece of art. And that’s what I want to focus on. I found this phishing page from [@soursecc](https://x.com/soursecc). This page presents itself as an e-commerce platform.
 
-![[Pasted image 20250719102059.png]]
+![](https://miro.medium.com/v2/resize:fit:700/1*KsTfT_zbBAU44NMYlFurqw.png)
 
 Okta is a popular platform that provides Multifactor Authentication (MFA) through Single Sign On (SSO) pages. Unfortunately, a threat actor can spoof legitimate Okta SSO pages and ensnare victims into a [trap](https://www.helpnetsecurity.com/2024/03/04/phishing-okta-sso/). I won’t provide the entire HTML page, but I will break down sections and highlight noteworthy comments left by our threat actor. At the end of each section of the code breakdown, I will provide MITRE ATT&CK alignment for TTPs observed.
 ## Authenticator Page function
